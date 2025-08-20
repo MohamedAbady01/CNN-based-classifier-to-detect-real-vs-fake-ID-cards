@@ -22,7 +22,6 @@ All the work was built **from scratch**, including:
 
 ---
 
-## 📂 Project Structure
 
 
 ## 📂 Project Structure
@@ -51,9 +50,10 @@ git clone https://github.com/MohamedAbady01/CNN-based-classifier-to-detect-real-
 cd CNN-based-classifier-to-detect-real-vs-fake-ID-cards
 ```
 2. Install dependencies
+```bash
 pip install -r requirements.txt
-
-3. Prepare dataset
+```
+4. Prepare dataset
 
 Put your dataset in the following structure:
 
@@ -62,8 +62,9 @@ dataset/
  └── fake/
 
 4. Run training
+ ```bash
 python card_classifier.py
-
+```
 
 This will:
 
