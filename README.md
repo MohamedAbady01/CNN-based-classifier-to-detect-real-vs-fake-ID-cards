@@ -1,19 +1,29 @@
 # Card Classifier (Real vs Fake ID Detection)
 
-This project detects **real vs fake ID cards** by analyzing the **face region** and extracting **texture + edge features**.  
-It uses **YOLO (OpenCV DNN)** for face detection, **LBP + edges** for feature enhancement, and a **PyTorch CNN** for classification.
+This project was developed as an **Upwork freelance project**, where I successfully delivered the solution and received **⭐ 5-star feedback** from the client.  
+
+⚠️ **Important note**: The client required that **no pre-trained models** (e.g., ResNet, VGG, EfficientNet) be used.  
+All the work was built **from scratch**, including:
+- Custom dataset handling
+- Feature extraction (LBP + Edge)
+- CNN model architecture
+- Training & evaluation pipeline
 
 ---
 
 ## 🚀 Features
-- Face detection & cropping using YOLO
+- Face detection & cropping using YOLO (OpenCV DNN)
 - Extracts **RGB + LBP + Edge** → 9-channel input
-- CNN classifier with dropout & batch normalization
+- CNN classifier built completely from scratch (no pretrained backbone)
 - Training with early stopping & learning rate scheduling
 - Misclassified images are saved for inspection
 - Confusion matrix & classification report
+- Delivered successfully with 5-star client rating ⭐⭐⭐⭐⭐
 
 ---
+
+## 📂 Project Structure
+
 
 ## 📂 Project Structure
 ├── models/
